@@ -1,0 +1,133 @@
+figure {
+    width: auto !important;
+}
+
+.flex-display {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.flex-content {
+    flex: 1 0 auto;
+}
+
+.flex-footer {
+    flex-shrink: 0;
+    margin-bottom: 3px;
+}
+
+.main-background {
+    
+    height: 100%;
+    width: 100%;
+    background: url('/static/memphis.colorful.png');
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.prompt-main-text {
+    float: left;
+    padding-top: 14px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.prompt-main-text:hover {
+    color: lightcoral;
+}
+
+.default-text-shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.one-fifth {
+    width: 17%;
+}
+
+.one-fourth {
+    width: 25%;
+}
+
+.one-third {
+    width: 33.33333%;
+}
+
+.one-half {
+    width: 50%;
+}
+
+.image-zoom:hover .card__media__background,
+.image-zoom:focus .card__media__background {
+    transform: scale(1.2);
+}
+
+.card__media__background {
+    transition: all 0.7s;
+}
+
+.container {
+    width: 100%;
+}
+
+.button-margin {
+    margin: 21px 0 !important;
+}
+
+.truncated-text-display {
+    word-wrap: break-word;
+}
+
+.html-description-content {
+    margin: 40px auto;
+    max-width: 90%;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.html-description-content img {
+    max-width: 90% !important;
+    height: auto;
+}
+
+.image-view {
+    margin-top: 21px;
+    width: 90%;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.75);
+}
+
+.slide-line {
+    position: relative;
+    text-decoration: none;
+}
+
+.slide-line:after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px dashed #fe4a49;
+    transition-duration: 0.5s;
+}
+
+.slide-line:hover:after {
+    width: 100%;
+}
+
+.btn--active > .btn__content {
+    color: #1976d2;
+}
+
+.img-cont {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+  }

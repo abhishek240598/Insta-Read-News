@@ -1,0 +1,37 @@
+{
+    "name": "insta-read-news",
+    "short_name": "insta-read-news",
+    "display": "standalone",
+    "orientation": "portrait",
+    "lang": "en-US",
+    "start_url": "/?utm_source=homescreen",
+    "version": "0.0.1",
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "description": "A simple application for keeping up with news",
+    "icons": [{
+        "src": "/static/InstaRead_News.png",
+        "sizes": "200x200",
+        "type": "image/png"
+    }, {
+        "src": "/static/InstaRead_News.png",
+        "sizes": "200x200",
+        "type": "image/png"
+    }, {
+        "src": "/static/InstaRead_News.png",
+        "sizes": "200x200",
+        "type": "image/png"
+    }, {
+        "src": "/static/InstaRead_News.png",
+        "sizes": "200x200",
+        "type": "image/png"
+    }, {
+        "src": "/static/InstaRead_News.png",
+        "sizes": "200x200",
+        "type": "image/png"
+    }, {
+        "src": "/static/InstaRead_News.png",
+        "sizes": "200x200",
+        "type": "image/png"
+    }]
+}
